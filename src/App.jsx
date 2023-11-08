@@ -1,13 +1,13 @@
 import Router from "./Router";
-import Component2 from "./components/Component2";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/encuentro-1/Navbar";
+import FormUncontroled from "./components/encuentro-2/FormUncontroled";
 
 function App() {
   return (
     <>
       <Navbar />
       <Router />
-      <Component2 />
+      <FormUncontroled />
     </>
   );
 }

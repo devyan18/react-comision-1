@@ -58,3 +58,32 @@ nav > ul {
   flex-direction: row;
   gap: 12px;
 }
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.form > input {
+  outline: none;
+  border: none;
+  
+  border: 1px solid #bbb;
+}
+
+.form > button {
+  outline: none;
+  border: none;
+}
+
+.form > button:hover {
+  background-color: #ccc;
+}
+
+.form > * {
+  border-radius: 4px;
+}
